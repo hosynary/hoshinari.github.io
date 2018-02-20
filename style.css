@@ -1,0 +1,18 @@
+
+body{
+  color: grey;
+  font-size: 20px;
+  font-family:Meiryo;
+  background: #00ced1;
+  text-align: center;
+}
+div{
+  background: #ffffff;
+  width: 1400px;
+  padding: 10px
+}
+.light {
+  color: red;
+  background: linear-gradient(transparent 60%, #ffff66 60%);
+  font-size: 120%;
+  }
