@@ -36,8 +36,8 @@ div{
   display:table-cell;
 }
 .homenav a{
-  width:300px; //長さは均等割以上のサイズを指定する。
-  height:300px;
+  width:300px;
+  height:80px;
   display:inline-block;
   text-align: center;
   background: #00a3a7;
