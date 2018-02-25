@@ -1,13 +1,14 @@
 
 body{
-  color: grey;
+  color: #ffffff;
   font-size: 20px;
   font-family:Meiryo;
-  background: #00ced1;
+  background: #ffffff;
   text-align: center;
 }
+
 div{
-  background: #ffffff;
+  background: #00a3a7;
 }
 .headline{
   text-align: center;
@@ -15,16 +16,20 @@ div{
   padding: 20px;
   margin: 40px;
 }
+.headline h2{
+  font-size: 15px; 
+}
 .light{
-  color: red;
+  color: coral;
   background: linear-gradient(transparent 60%, #ffff66 60%);
-  font-size: 120%;
+  font-size: 130%;
 }
 .homenav{
-  width:1200px;
-  line-height: 100px;
-  margin:40;
-  display:table;
+  line-height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: table;
   text-align:center
 }
 .homenav li{
@@ -34,18 +39,22 @@ div{
   width:300px; //長さは均等割以上のサイズを指定する。
   height:300px;
   display:inline-block;
-  text-align:center;
-  background:#ffffff;
-  color:#00ced1;
-  border-right:3px solid #00ced1;
+  text-align: center;
+  background: #00a3a7;
+  color: #ffffff;
+  border-right: 3px solid #ffffff;
 }
 .homenav li:first-child a{
-  border-left:3px solid #00ced1;
+  border-left:3px solid #ffffff;
 }
 
 .main{
+  background: #ffffff;
+  color: #00a3a7
+}
+
+.foot{
   text-align: center;
-  height: 150px;
   padding: 20px;
   margin: 40px;
 }
