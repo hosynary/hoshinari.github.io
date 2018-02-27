@@ -3,7 +3,8 @@ body{
   color: #ffffff;
   font-size: 20px;
   font-family:Meiryo;
-  background: #ffffff;
+  background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
   text-align: center;
 }
 
@@ -49,12 +50,17 @@ div{
 }
 
 .main{
-  background: #ffffff;
-  color: #00a3a7
-}
+  width:900px;
+  border: double 5px #4ec4d3;
+  background: #f0f8ff;
+  color: #00a3a7;
+  margin-left: auto;
+  margin-right: auto;
+} 
 
 .foot{
   text-align: center;
   padding: 20px;
   margin: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15) inset;
 }
