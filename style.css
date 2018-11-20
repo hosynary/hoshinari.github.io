@@ -12,25 +12,24 @@ body{
   font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
-.headline{
+.headlinetop{
   /* position: fixed;     */
   left:0px;
   width:100%;
-  height:240px;
+  height:100px;
   background: #1b2450;
 }
 
 
-.headline h1{
+.headlinetop h1{
+  text-align:center;
   font-size: 30px;
-  color:#108d8f;
   margin-left: auto;
   margin-right: auto;
   font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;;
 }
-.headline h2{
+.headlinetop h2{
   font-size: 15px;
-  color:#108d8f;
 }
 .light{
   color: coral;
@@ -77,7 +76,9 @@ body{
   height:240px; 
 
 }
-
+.nav-wrapper{
+  color: #ffffff
+}
 .parallax-container {
   min-height: 380px;
   line-height: 0;
