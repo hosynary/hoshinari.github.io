@@ -80,8 +80,28 @@ body{
   color: #ffffff
 }
 .parallax-container {
-  min-height: 380px;
+  min-height: 300px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255,255,255,.9)
+}
+.parallax-container.top{
+  min-height: 850px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9)
+}
+.parallax img:hover {
+  opacity: 0.5;
+}
+.section.no-pad-bot{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:700px;
+  margin-top: 150px;
+}
+.title{
+  text-align: center;
+  color: #5664aa
 }
