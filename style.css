@@ -2,62 +2,20 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 body{
-  color: #ffffff;
   font-size: 20px;
   background:#ffffff; 
   text-align: center;
   margin-left :0px;
   margin-right: 0px;
   margin-top:-20px;
-  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
-
-.headlinetop{
-  /* position: fixed;     */
-  left:0px;
-  width:100%;
-  height:100px;
-  background: #1b2450;
+  font-family: 'Alegreya Sans SC', sans-serif;  
 }
 
 
-.headlinetop h1{
-  text-align:center;
-  font-size: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;;
-}
-.headlinetop h2{
-  font-size: 15px;
-}
 .light{
   color: coral;
   background: linear-gradient(transparent 60%, #ffff66 60%);
   font-size: 130%;
-}
-.homenav{
-  line-height: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  display: table;
-  text-align:center
-}
-.homenav li{
-  display:table-cell;
-}
-.homenav a{
-  width:300px;
-  height:80px;
-  display:inline-block;
-  text-align: center;
-  background: #1b2450;
-  color: #ffffff;
-  border-right: 3px solid #ffffff;
-}
-.homenav li:first-child a{
-  border-left:3px solid #ffffff;
 }
 
 .main{
@@ -70,15 +28,14 @@ body{
 } 
 
 .foot{
+  color: #ffffff;
   bottom:0px;
   left:0px;
   width:100%;
   height:240px; 
 
 }
-.nav-wrapper{
-  color: #ffffff
-}
+
 .parallax-container {
   min-height: 300px;
   line-height: 0;
@@ -91,17 +48,63 @@ body{
   height: auto;
   color: rgba(255,255,255,.9)
 }
-.parallax img:hover {
-  opacity: 0.5;
-}
+
 .section.no-pad-bot{
   position: absolute;
   top: 0;
   left: 0;
-  width:700px;
+  width:1400px;
   margin-top: 150px;
 }
 .title{
   text-align: center;
-  color: #5664aa
+  color: #5664aa;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight:bold;
+}
+.row.center{
+  font-family: 'Alegreya Sans SC', sans-serif; 
+}
+.profile h2{
+  color: #5664aa!important;;
+  text-align: center;
+}  
+.profile h3{
+  color: #000000!important;;
+  text-align: center;
+}
+.left-container{
+  float:left;
+  margin-left: 100px;
+}
+.right-container{
+  float:left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+ul.foo {
+  width: 600px;
+  padding:0;
+  font-size:0px;
+}
+ul.foo li {
+  width:118px;
+  display: inline-block;
+  text-align: center;
+  font-size:25px;
+}
+ul.foo li a{
+  color:#5664aa;
+}
+.contact{
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  text-align: center
+}
+.links{
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  text-align: center
 }
