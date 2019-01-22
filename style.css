@@ -108,6 +108,7 @@ ul.foofab li {
 }
 .profile_name{
   display: inline-block;
+  vertical-align: middle;
 }
 
 .header{
