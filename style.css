@@ -4,7 +4,6 @@
 body{
   font-size: 20px;
   background:#ffffff; 
-  text-align: center;
   margin-left :0px;
   margin-right: 0px;
   margin-top:-20px;
@@ -37,7 +36,7 @@ body{
 }
 
 .parallax-container {
-  min-height: 300px;
+  min-height: 400px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9)
@@ -65,14 +64,7 @@ body{
 .row.center{
   font-family: 'Alegreya Sans SC', sans-serif; 
 }
-.profile h2{
-  color: #5664aa!important;;
-  text-align: center;
-}  
-.profile h3{
-  color: #000000!important;;
-  text-align: center;
-}
+
 .left-container{
   float:left;
   margin-left: 100px;
@@ -83,18 +75,24 @@ body{
   margin-top: 50px;
 }
 ul.foo {
-  width: 600px;
+  width: 700px;
   padding:0;
   font-size:0px;
 }
 ul.foo li {
-  width:118px;
   display: inline-block;
   text-align: center;
   font-size:25px;
 }
 ul.foo li a{
   color:#5664aa;
+  margin:30px;
+}
+ul.foofab li {
+  width:118px;
+  display: inline-block;
+  text-align: center;
+  font-size:25px;
 }
 .contact{
   margin-left: auto;
@@ -108,3 +106,17 @@ ul.foo li a{
   right: auto;
   text-align: center
 }
+.profile_name{
+  display: inline-block;
+}
+
+.header{
+  color: #5664aa!important;;
+  text-align: center;
+}  
+.fas_fa-child{
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+

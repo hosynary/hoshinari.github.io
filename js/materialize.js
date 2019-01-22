@@ -15,7 +15,7 @@ $(function() {
   // スクロールのオフセット値
   var offsetY = -10;
   // スクロールにかかる時間
-  var time = 500;
+  var time = 1500;
 
   // ページ内リンクのみを取得
   $('a[href^="#"]').click(function() {
