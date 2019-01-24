@@ -115,9 +115,56 @@ ul.foofab li {
   color: #5664aa!important;;
   text-align: center;
 }  
-.fas_fa-child{
-  margin-right: 300px;
-  margin-left: 300px;
+.basepct{
+  top:10px;
+}
+#human{
+  position: relative;
+  padding:0;
+}
+#name{
+  position: absolute;
+  bottom: 240px;
+  right: 750px;
+}
+#histry{
+  position: absolute;
+  bottom: 100px;
+  right: 720px;
+}
+#hobby{
+  position: absolute;
+  bottom: 10px;
+  right: -50px;
+}
+#work{
+  position: absolute;
+  bottom: -50px;
+  right: 760px;
 }
 
+
+.balloon-shadow {
+  position: relative; /* 三角の位置を固定するために設定 */
+  width: 550px; /* 幅 */
+  margin: 0 auto 40px; /* 上 左右 下のマージン */
+  padding: 20px; /* ふきだし内の余白 */
+  background: #5664aa; /* 背景色 */
+  text-align: center; /* テキストの揃え */
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  color: #ffffff;
+}
+.balloon-shadow::before{
+  content: '';
+  width: 20px; /* 影をつけるために線幅で設定せずにboxを使用する */
+  height: 20px;
+  background: #5664aa; /* 吹き出しの地と同じ色 */
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
 
