@@ -142,6 +142,11 @@ ul.foofab li {
   bottom: -50px;
   right: 760px;
 }
+#recent{
+  position: absolute;
+  bottom: 100px;
+  right: -30px;
+}
 
 
 .balloon-shadow {
