@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
+
 body{
   font-size: 20px;
   background:#ffffff; 
@@ -122,9 +123,19 @@ ul.foofab li {
   right: auto;
   text-align: center
 }
-.profile_name{
-  display: inline-block;
+
+.profile{
   vertical-align: middle;
+  text-align: center
+}
+
+.profile_name{
+  vertical-align: middle;
+  text-align: center
+}
+.profile_icon{
+  vertical-align: middle;
+  text-align: center
 }
 
 .header{
@@ -197,6 +208,25 @@ ul.foofab li {
 
 .footfoot{
   text-align: center;
+}
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:479px )
+{
+  body{
+    font-size: 20px;
+    background: #eef2f7;
+  }
+	.parallax-container .parallax img {
+    width: 70%;
+    min-height: 0%; 
+    margin-bottom: -100px;
+  }
+  .section {
+    padding-top: 0rem;
+  }
+  .br-sp { display:block; }
+
 }
 
 
