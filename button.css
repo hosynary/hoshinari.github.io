@@ -35,7 +35,7 @@
 #section-1 #button1 .border, #section-1 #button1 .top, #section-1 #button1 .left, #section-1 #button1 .bottom, #section-1 #button1 .right {
   transition: all 1s ease-out;
   -webkit-transition: all 1s ease-out;
-  background-color: #0a1827;
+  background-color: #0f243a;
   position: absolute;
 }
 #section-1 #button1 .top, #section-1 #button1 .left {
@@ -65,7 +65,7 @@
   transform: translate(-50%, -50%);
   width: 0px;
   height: 0px;
-  background-color: #0a1827;
+  background-color: #0f243a;
 }
 #section-1 #button1:hover .text {
   color: #90afc5;
@@ -99,7 +99,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #16253d;
+  background-color: #0f243a;
 }
 #section-4 #button4:hover .text {
   color: #90afc5;

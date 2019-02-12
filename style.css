@@ -21,7 +21,7 @@ body{
 .main{
   width:900px;
   border: double 5px #1b2450;
-  background: #ffffff;
+  background: #f3f2f3;
   color: #1b2450;
   margin-left: auto;
   margin-right: auto;
@@ -214,8 +214,8 @@ ul.foofab li {
 @media screen and ( max-width:479px )
 {
   body{
-    font-size: 20px;
-    background: #eef2f7;
+    font-size: 15px;
+    background: #f3f2f3;
   }
 	.parallax-container .parallax img {
     width: 70%;
