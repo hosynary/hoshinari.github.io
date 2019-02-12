@@ -2,13 +2,6 @@
 
 $(function() {
 
-  // $('#hobby').fadeOut(1);
-  // $('#work').fadeOut(1);
-  // $('#name').fadeOut(1);
-  // $('#recent').fadeOut(1);
-  // $('#histry').fadeOut(1);
-
-
   setTimeout(function(){
     $('#work').fadeIn(500);
   },500);
