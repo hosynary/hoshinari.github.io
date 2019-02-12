@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 $(function() {
   // スクロールのオフセット値
-  var offsetY = -10;
+  var offsetY = -250;
   // スクロールにかかる時間
   var time = 1500;
 
