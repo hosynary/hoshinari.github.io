@@ -60,6 +60,15 @@ body{
   width:1400px;
   margin-top: 150px;
 }
+.section.no-pad-bot2{
+  position: absolute;
+  top: 700px;
+  width:100%;
+}
+.undericon{
+  text-align: center
+}
+
 .title{
   text-align: center;
   color: #5664aa;
