@@ -2,9 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
-
+header {
+	position: relative;
+	max-width: 960px;
+	height: 200px;
+	margin: 0 auto;
+}
 body{
-  font-size: 20px;
+  font-size: 15px;
   background:#ffffff; 
   margin-left :0px;
   margin-right: 0px;
@@ -35,10 +40,21 @@ body{
   height:240px; 
 
 }
+section{
+  position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+}
 
 .buttons{
-  display: inline;
   margin:30px;
+  float: right;
+}
+
+.linkbuttom{
+  position: fixed;
+	right: 25px;
+	bottom: 25px;
 }
 
 .parallax-container {
@@ -82,15 +98,23 @@ body{
 
 .left-container{
   float:left;
-  margin-left: 30px;
 }
 .right-container{
-  float: left;
   margin-top: 50px;
-  margin-left:10px;
-  width:70%;
-  font-size: 10px;
 }
+
+.titlezone{
+  margin-top:50px;
+}
+
+.nav{
+  margin-top:100px;
+}
+
+.mainflame{
+  position: relative;
+}
+
 ul.foo {
   width: 700px;
   padding:0;
@@ -145,70 +169,24 @@ ul.foofab li {
 .basepct{
   top:10px;
 }
-#human{
-  position: relative;
-  padding:0;
-}
-#name{
-  position: absolute;
-  bottom: 240px;
-  right: 750px;
-  display:none
-}
-#histry{
-  position: absolute;
-  bottom: 100px;
-  right: 720px;
-  display:none
-}
-#hobby{
-  position: absolute;
-  bottom: 10px;
-  right: -50px;
-  display:none
-}
-#work{
-  position: absolute;
-  bottom: -50px;
-  right: 760px;
-  display:none
-}
-#recent{
-  position: absolute;
-  bottom: 100px;
-  right: -30px;
-  display:none
-}
 
-
-.balloon-shadow {
-  position: relative; /* 三角の位置を固定するために設定 */
-  width: 550px; /* 幅 */
-  margin: 0 auto 40px; /* 上 左右 下のマージン */
-  padding: 20px; /* ふきだし内の余白 */
-  background: #5664aa; /* 背景色 */
-  text-align: center; /* テキストの揃え */
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-  border-radius: 8px;
-  color: #ffffff;
-}
-.balloon-shadow::before{
-  content: '';
-  width: 20px; /* 影をつけるために線幅で設定せずにboxを使用する */
-  height: 20px;
-  background: #5664aa; /* 吹き出しの地と同じ色 */
-  transform: rotate(45deg);
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  margin-left: -10px;
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-}
 .githublink{color: #333}
 
+.me{
+  display: flex;
+  width:100%;
+}
+.meimg{
+  width:30%;
+}
+.meabout{
+  width:70%;
+}
 .footfoot{
   text-align: center;
 }
+
+.top-header__deco { position: absolute; top: 50%; left: 50%; width: 0; height: 0; margin-top: -130px; margin-left: -200px; border-top: 420px #ffee6b solid; border-right: 242px transparent solid; border-left: 242px transparent solid; opacity: 0; animation: topdecofadein 1s ease-in-out; -ms-animation: topdecofadein 1s ease-in-out; -moz-animation: topdecofadein 1s ease-in-out; -webkit-animation: topdecofadein 1s ease-in-out; animation-fill-mode: both; z-index: -1; }
 
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 @media screen and ( max-width:479px )
@@ -216,6 +194,10 @@ ul.foofab li {
   body{
     font-size: 15px;
     background: #f3f2f3;
+  }
+  .left-container{
+    float:none;
+    text-align: center;
   }
 	.parallax-container .parallax img {
     width: 70%;
@@ -226,7 +208,21 @@ ul.foofab li {
     padding-top: 0rem;
   }
   .br-sp { display:block; }
+  
+  .me{
+    ;
+  }
 
+  .meimg{
+    width: 96%;
+  }
+  .meabout{
+    width:96%;
+  }
+
+  main{
+    padding: 20px;
+  }
 }
 
 

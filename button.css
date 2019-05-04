@@ -1,7 +1,9 @@
 
-#section-4 #button4 {
-  overflow: hidden;
+
+nav{
+  background-color: #ffffff;
 }
+
 .section-button {
   float: left;
   height: 50%;
@@ -17,14 +19,13 @@
 .button {
   border: none;
   cursor: pointer;
-  padding: 20px 30px;
+  padding: 10px 20px;
   position: relative;
   float: left;
 }
 .button .text {
   position: relative;
   z-index: 100;
-  font-size: 2em;
 }
 
 #section-1 #button1 .text {
@@ -116,10 +117,17 @@
 
 
 
-@media (max-height: 300px), (max-width: 650px) {
-  .section-button {
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:479px )
+{
+  .section-button { 
     height: 100%;
     width: 100%;
-    float: none;
+  }
+  .button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: relative;
   }
 }
