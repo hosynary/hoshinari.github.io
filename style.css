@@ -146,7 +146,8 @@ ul.foofab li {
 
 .profile{
   vertical-align: middle;
-  text-align: center
+  text-align: center;
+  font-family: 'Courier';
 }
 
 .profile_name{
