@@ -84,45 +84,13 @@ nav{
 }
 
 
-#section-4 #button4 .text {
-  color: #5664aa;
-  transition: all .5s linear;
-  -webkit-transition: all .5s linear;
-}
-#section-4 #button4::after {
-  content: '';
-  position: absolute;
-  transition: top .5s ease-in .5s, width .5s ease-out, height .5s ease-out;
-  -webkit-transition: top .5s ease-in .5s, width .5s ease-out, height .5s ease-out;
-  left: 50%;
-  top: -50%;
-  transform: translate(-50%, -50%);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #0f243a;
-}
-#section-4 #button4:hover .text {
-  color: #90afc5;
-  transition: color .5s linear .5s;
-  -webkit-transition: color .5s linear .5s;
-}
-#section-4 #button4:hover::after {
-  transition: top .5s ease-in, width .5s ease-out .5s, height .5s ease-out .5s;
-  -webkit-transition: top .5s ease-in, width .5s ease-out .5s, height .5s ease-out .5s;
-  top: 50%;
-  width: 400px;
-  height: 400px;
-}
-
-
-
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 @media screen and ( max-width:479px )
 {
   .section-button { 
     height: 100%;
     width: 100%;
+    margin:5px;
   }
   .button {
     border: none;

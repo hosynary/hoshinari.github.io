@@ -107,10 +107,6 @@ section{
   margin-top:50px;
 }
 
-.nav{
-  margin-top:100px;
-}
-
 .mainflame{
   position: relative;
 }
@@ -199,6 +195,14 @@ ul.foofab li {
     float:none;
     text-align: center;
   }
+  
+  .parallax-container {
+    min-height: 400px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+    top:-90px;
+  }
 	.parallax-container .parallax img {
     width: 70%;
     min-height: 0%; 
@@ -208,10 +212,6 @@ ul.foofab li {
     padding-top: 0rem;
   }
   .br-sp { display:block; }
-  
-  .me{
-    ;
-  }
 
   .meimg{
     width: 96%;
@@ -219,10 +219,17 @@ ul.foofab li {
   .meabout{
     width:96%;
   }
+  .me{
+    display: block;
+    width:100%;
+  }
 
   main{
     padding: 20px;
   }
+
+
+
 }
 
 
