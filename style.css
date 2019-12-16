@@ -10,7 +10,7 @@ header {
 }
 body{
   font-size: 15px;
-  background:#ffffff; 
+  background:#393D46; 
   margin-left :0px;
   margin-right: 0px;
   margin-top:-20px;
@@ -183,6 +183,12 @@ ul.foofab li {
   text-align: center;
 }
 
+.aboutme{
+  background-color: #f3f2f3;
+  margin: 15px;
+  padding: 50px;
+}
+
 .top-header__deco { position: absolute; top: 50%; left: 50%; width: 0; height: 0; margin-top: -130px; margin-left: -200px; border-top: 420px #ffee6b solid; border-right: 242px transparent solid; border-left: 242px transparent solid; opacity: 0; animation: topdecofadein 1s ease-in-out; -ms-animation: topdecofadein 1s ease-in-out; -moz-animation: topdecofadein 1s ease-in-out; -webkit-animation: topdecofadein 1s ease-in-out; animation-fill-mode: both; z-index: -1; }
 
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
@@ -190,7 +196,7 @@ ul.foofab li {
 {
   body{
     font-size: 15px;
-    background: #f3f2f3;
+    background: #393D46;
   }
   .left-container{
     float:none;
@@ -198,7 +204,7 @@ ul.foofab li {
   }
   
   .parallax-container {
-    min-height: 400px;
+    min-height: 600px;
     line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
@@ -210,7 +216,7 @@ ul.foofab li {
     margin-bottom: -100px;
   }
   .section {
-    padding-top: 0rem;
+    padding-top: 2rem;
   }
   .br-sp { display:block; }
 
@@ -225,8 +231,14 @@ ul.foofab li {
     width:100%;
   }
 
-  main{
-    padding: 20px;
+  .parallax img{
+    width:100%;
+    height:100%;
+    object-fit: cover; 
+  }
+
+  .aboutme{
+    margin-top: 100px;
   }
 
 
